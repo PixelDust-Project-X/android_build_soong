@@ -126,6 +126,7 @@ var Configuration = map[string]PathConfig{
 	"aarch64-linux-gnu-as":          Allowed,
 	"aarch64-linux-gnu-ld":          Allowed,
 	"dtc":                           Allowed,
+	"ld":                            Allowed,
 	"mkdtimg":                       Allowed,
 
 	// Host toolchain is removed. In-tree toolchain should be used instead.
